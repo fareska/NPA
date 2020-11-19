@@ -9,7 +9,7 @@
     padding: 10px;
     display: grid;
     height: 400px;
-    background-color: #16a085;
+    background-color: gray;
     text-align: center;
     align-content: center;
     border-radius: 4px;
@@ -21,10 +21,17 @@
 }
 
 img {
+    display: grid;
     background-color: gray;
-}
+    align-items: center;
+    width : 220px;
+    height: 220px;
+} 
 
-/* 
+input{
+    width:90% ;
+}
+/*  
 .pic{
     display: grid;
     height: 100px;
@@ -32,4 +39,4 @@ img {
     text-align: center;
     align-content: center;
     border-radius: 4px;
-} */
+}  */
