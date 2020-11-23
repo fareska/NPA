@@ -1,0 +1,42 @@
+
+#dataContainer{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#dataContainer > div{
+    padding: 10px;
+    display: grid;
+    height: 400px;
+    background-color: gray;
+    text-align: center;
+    align-content: center;
+    border-radius: 4px;
+}
+
+#container > div {
+    
+    margin-bottom: 20px;
+}
+
+img {
+    display: grid;
+    background-color: gray;
+    align-items: center;
+    width : 220px;
+    height: 220px;
+} 
+
+input{
+    width:90% ;
+}
+/*  
+.pic{
+    display: grid;
+    height: 100px;
+    background-color: #16a085;
+    text-align: center;
+    align-content: center;
+    border-radius: 4px;
+}  */
